@@ -45,5 +45,8 @@
   "peerDependencies": {
     "@tiptap/core": "^2.0.0-beta.220",
     "@tiptap/pm": "^2.0.0-beta.220"
+  },
+  "dependencies": {
+    "@webspellchecker/wproofreader-sdk-js": "^1.1.2"
   }
 }

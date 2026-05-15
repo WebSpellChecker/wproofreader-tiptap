@@ -1,11 +1,3 @@
-import { Extension } from '@tiptap/core'
+import { WProofreader } from './wproofreader.js';
 
-const MyExtension = Extension.create({
-	name: "MyExtension",
-
-	// do your stuff here
-})
-
-export { MyExtension }
-
-export default MyExtension
+export default WProofreader;
