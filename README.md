@@ -43,6 +43,7 @@ WProofreader plugin for Tiptap inherits all functionality of the WProofreader co
 		],
 		content: '<p>Hello World!</p>'
 	})
+	```
 
 2. Configure the plugin.
 
@@ -74,7 +75,7 @@ WProofreader plugin for Tiptap inherits all functionality of the WProofreader co
 
 ## Documentation
 
-To find out more, refer the following documentation:
+To find out more, refer to the following documentation:
 
 * [WProofreader Configuration reference](https://webspellchecker.com/docs/api/wscbundle/Options.html)
 * [Tiptap documentation](https://tiptap.dev/docs)
@@ -92,4 +93,4 @@ Holders of an active subscription to the services or a commercial license have a
 
 ## License
 
-Licensed under the terms of MIT license. For full details about the license, please check the `LICENSE.md` file.
+Licensed under the terms of the MIT license. For full details about the license, please check the `LICENSE.md` file.
