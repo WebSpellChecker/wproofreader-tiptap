@@ -1,5 +1,3 @@
-// rollup.config.js
-
 const autoExternal = require("rollup-plugin-auto-external");
 const sourcemaps = require("rollup-plugin-sourcemaps");
 const commonjs = require("@rollup/plugin-commonjs");
