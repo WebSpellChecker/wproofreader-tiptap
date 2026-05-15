@@ -3,7 +3,7 @@ import './styles.scss'
 import { TextStyleKit } from '@tiptap/extension-text-style'
 import { EditorContent, useEditor } from '@tiptap/react'
 import StarterKit from '@tiptap/starter-kit'
-import WProofreader from '@external';
+import WProofreader from '@external'
 
 import { MenuBar } from './MenuBar.jsx'
 
