@@ -78,9 +78,7 @@ export const WProofreader = Extension.create({
 	},
 
 	onUpdate() {
-		this.editor.isEditable
-			? this.storage.instance?.enable()
-			: this.storage.instance?.disable();
+		!this.editor.isEditable && this.storage.instance?.disable();
 	},
 
 	onDestroy() {
