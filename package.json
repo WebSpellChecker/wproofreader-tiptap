@@ -1,0 +1,49 @@
+{
+  "name": "@webspellchecker/wproofreader-tiptap",
+  "version": "0.0.1",
+  "description": "WProofreader spelling and grammar check plugin for Tiptap",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && rollup -c",
+    "dev": "npm run clean && rollup -c -w",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebSpellChecker/wproofreader-tiptap"
+  },
+  "author": "WebSpellChecker (https://webspellchecker.com/)",
+  "bugs": {
+    "url": "https://github.com/WebSpellChecker/wproofreader-tiptap/issues"
+  },
+  "homepage": "https://github.com/WebSpellChecker/wproofreader-tiptap#readme",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "keywords": [
+    "tiptap spellchecker",
+    "tiptap grammar checker",
+    "tiptap plugin",
+    "wproofreader",
+    "spell check",
+    "grammar check",
+    "proofreading"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@tiptap/core": "^2.0.0-beta.220",
+    "@tiptap/pm": "^2.0.0-beta.220",
+    "rollup": "^3.17.3",
+    "rollup-plugin-auto-external": "^2.0.0",
+    "rollup-plugin-sourcemaps": "^0.6.3"
+  },
+  "peerDependencies": {
+    "@tiptap/core": "^2.0.0-beta.220",
+    "@tiptap/pm": "^2.0.0-beta.220"
+  }
+}
