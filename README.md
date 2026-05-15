@@ -27,7 +27,7 @@ WProofreader plugin for Tiptap inherits all functionality of the WProofreader co
 
 	```js
 	import { Editor } from '@tiptap/core';
-	import StarterKit from '@tiptap/starter-kit'
+	import StarterKit from '@tiptap/starter-kit';
 	import WProofreader from '@webspellchecker/wproofreader-tiptap';
 	...
 
