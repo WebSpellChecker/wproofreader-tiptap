@@ -15,7 +15,7 @@ trim_trailing_whitespace = false
 indent_style = space
 indent_size = 2
 
-[{node_modules,dist}/**]
+[{node_modules,dist,samples}/**]
 indent_style = unset
 tab_width = unset
 indent_size = unset
