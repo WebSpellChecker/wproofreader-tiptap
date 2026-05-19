@@ -1,6 +1,6 @@
 {
   "name": "@webspellchecker/wproofreader-tiptap",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "WProofreader spelling and grammar check plugin for Tiptap",
   "scripts": {
     "clean": "rm -rf dist",
