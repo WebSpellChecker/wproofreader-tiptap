@@ -7,11 +7,18 @@ WProofreader extension for Tiptap inherits all functionality of the WProofreader
 
 ## Table of contents
 
+* [Before you start](#before-you-start)
 * [Install instructions](#install-instructions)
 * [Documentation](#documentation)
 * [Reporting issues](#reporting-issues)
 * [Technical support or questions](#technical-support-or-questions)
 * [License](#license)
+
+## Before you start
+
+The Tiptap extension is a frontend component that connects to the WProofreader service, so an active WProofreader SDK subscription is required to use it. New users can [sign up](https://wproofreader.com/sdk#pricing) for the SDK, where a free plan with basic spelling and grammar check and a daily usage limit is available. After signing up, your **service ID** will be on the [Credentials page](https://app.wproofreader.com/credentials).
+
+Existing clients of the cloud version use the same service ID from the Credentials page, while clients of the self-hosted version point the extension to their service endpoint (see the server-based configuration example below).
 
 ## Install instructions
 
@@ -57,7 +64,7 @@ WProofreader extension for Tiptap inherits all functionality of the WProofreader
 	}
 	```
 
-	`serviceId` is a mandatory parameter for activating and using the extension pointed to the Cloud-based version of WProofreader.
+	`serviceId` is a mandatory parameter for activating and using the extension pointed to the Cloud-based version of WProofreader. You can find your service ID on the [Credentials page](https://app.wproofreader.com/credentials), or [sign up](https://wproofreader.com/sdk#pricing) to receive one.
 
 	For the **Server-based** version of WProofreader:
 
