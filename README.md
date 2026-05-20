@@ -1,9 +1,9 @@
-WProofreader plugin for Tiptap
+WProofreader extension for Tiptap
 ===================================
 
 The multilingual spelling and grammar checking solution for Tiptap editor version 3. It provides both instant and in-dialog proofreading modes in a convenient UI.
 
-WProofreader plugin for Tiptap inherits all functionality of the WProofreader component with slight adaptation to the view and features of the editor. For more details, visit the [WProofreader repo](https://github.com/WebSpellChecker/wproofreader) or [official web page](https://webspellchecker.com/wsc-proofreader/).
+WProofreader extension for Tiptap inherits all functionality of the WProofreader component with slight adaptation to the view and features of the editor. For more details, visit the [WProofreader repo](https://github.com/WebSpellChecker/wproofreader) or [official web page](https://webspellchecker.com/wsc-proofreader/).
 
 ## Table of contents
 
@@ -15,15 +15,15 @@ WProofreader plugin for Tiptap inherits all functionality of the WProofreader co
 
 ## Install instructions
 
-1. Install the plugin.
+1. Install the extension.
 
-	To install the plugin, run the following command:
+	To install the extension, run the following command:
 
 	```
 	npm install @webspellchecker/wproofreader-tiptap
 	```
 
-	Import the WProofreader plugin into the project. Then, add it to the `extensions` array and configure.
+	Import the WProofreader extension into the project. Then, add it to the `extensions` array and configure.
 
 	```js
 	import { Editor } from '@tiptap/core';
@@ -45,9 +45,9 @@ WProofreader plugin for Tiptap inherits all functionality of the WProofreader co
 	})
 	```
 
-2. Configure the plugin.
+2. Configure the extension.
 
-	After installing the plugin, you need to configure it in the Tiptap setup. The configuration is added to the `wproofreader` field. For a detailed list of available customization options, refer to the [Configuration reference](https://webspellchecker.com/docs/api/wscbundle/Options.html).
+	After installing the extension, you need to configure it in the Tiptap setup. The configuration is added to the `wproofreader` field. For a detailed list of available customization options, refer to the [Configuration reference](https://webspellchecker.com/docs/api/wscbundle/Options.html).
 
 	For the **Cloud-based** version of WProofreader:
 
@@ -57,7 +57,7 @@ WProofreader plugin for Tiptap inherits all functionality of the WProofreader co
 	}
 	```
 
-	`serviceId` is a mandatory parameter for activating and using the plugin pointed to the Cloud-based version of WProofreader.
+	`serviceId` is a mandatory parameter for activating and using the extension pointed to the Cloud-based version of WProofreader.
 
 	For the **Server-based** version of WProofreader:
 
@@ -82,7 +82,7 @@ To find out more, refer to the following documentation:
 
 ## Reporting issues
 
-We use GitHub Issues as the official public bug tracker for WProofreader plugin for Tiptap. Here are some recommendations to take into account when reporting an issue:
+We use GitHub Issues as the official public bug tracker for WProofreader extension for Tiptap. Here are some recommendations to take into account when reporting an issue:
 
 * Provide steps which help us to reproduce an issue. A sample page or JSFiddle is always welcomed.
 * Some issues may be browser and integration-specific. So, please specify what browser and integration you encountered the issue with.
