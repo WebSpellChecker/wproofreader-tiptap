@@ -1,4 +1,4 @@
-Samples of integrating the WProofreader plugin for Tiptap
+Samples of integrating the WProofreader extension for Tiptap
 ===================================
 
 To work with the samples, you need to install their dependencies from the root folder:
