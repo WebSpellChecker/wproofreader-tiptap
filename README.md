@@ -9,6 +9,7 @@ WProofreader extension for Tiptap inherits all functionality of the WProofreader
 
 * [Before you start](#before-you-start)
 * [Install instructions](#install-instructions)
+* [Commands](#commands)
 * [Documentation](#documentation)
 * [Reporting issues](#reporting-issues)
 * [Technical support or questions](#technical-support-or-questions)
@@ -79,6 +80,14 @@ Existing clients of the cloud version use the same service ID from the Credentia
 	```
 
 	Unlike the Cloud-based version, the `serviceId` parameter is not used here. Instead, it is required to specify the path to the backend entry point hosted on the client’s infrastructure.
+
+## Commands
+
+* `enableWProofreader` - Enables the WProofreader functionality.
+* `disableWProofreader` - Disables the WProofreader functionality.
+* `toggleWProofreader` - Toggles the WProofreader functionality.
+* `openWProofreaderSettings` - Opens the WProofreader settings.
+* `openWProofreaderDialog` - Opens the WProofreader dialog.
 
 ## Documentation
 
