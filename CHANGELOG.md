@@ -1,5 +1,9 @@
 # WProofreader extension for Tiptap Changelog
 
+## 1.0.3 – 2026-05-21
+
+Internal changes only (updated dependencies, documentation, etc.).
+
 ## 1.0.2 – 2026-05-20
 
 Internal changes only (updated dependencies, documentation, etc.).
